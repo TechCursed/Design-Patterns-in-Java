@@ -1,11 +1,6 @@
 # Factory Design Pattern
 
-
-### The Factory Design Pattern is a Creational Design Pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created.
-
-In simpler terms:
-👉 Instead of creating objects directly using the new keyword in your code, you delegate that responsibility to a Factory class.
-👉 This makes your code loosely coupled, flexible, and easier to extend when adding new types of objects.In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+The Factory Design Pattern is a Creational Design Pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created.
 
 #### It provides a centralized place for object creation.
 
@@ -14,6 +9,14 @@ In simpler terms:
 #### Removes tight coupling between client code and concrete classes.
 
 #### Promotes Reusability & Maintainability.
+
+
+In simpler terms:
+
+👉 Instead of creating objects directly using the new keyword in your code, you delegate that responsibility to a Factory class.
+
+👉 This makes your code loosely coupled, flexible, and easier to extend when adding new types of objects.In Factory pattern, we create object without exposing the creation logic to the client and refer to newly created object using a common interface.
+
 
 
 # Assignment: Factory Pattern – Payment Gateway Factory
